@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07C2694C24A6DEEF000C1148 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C2694B24A6DEEF000C1148 /* AppDelegate.m */; };
+		07C2694F24A6DEEF000C1148 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C2694E24A6DEEF000C1148 /* SceneDelegate.m */; };
+		07C2695224A6DEEF000C1148 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C2695124A6DEEF000C1148 /* ViewController.m */; };
+		07C2695524A6DEEF000C1148 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07C2695324A6DEEF000C1148 /* Main.storyboard */; };
+		07C2695724A6DEF2000C1148 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07C2695624A6DEF2000C1148 /* Assets.xcassets */; };
+		07C2695A24A6DEF2000C1148 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07C2695824A6DEF2000C1148 /* LaunchScreen.storyboard */; };
+		07C2695D24A6DEF2000C1148 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C2695C24A6DEF2000C1148 /* main.m */; };
+		07C2696724A6DEF2000C1148 /* KRCommonComponentsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C2696624A6DEF2000C1148 /* KRCommonComponentsTests.m */; };
+		07C2697224A6DEF2000C1148 /* KRCommonComponentsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C2697124A6DEF2000C1148 /* KRCommonComponentsUITests.m */; };
+		07C2699424A6DF8D000C1148 /* NSString+Date.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C2698324A6DF8C000C1148 /* NSString+Date.m */; };
+		07C2699524A6DF8D000C1148 /* UIView+TSXibOwner.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C2698524A6DF8C000C1148 /* UIView+TSXibOwner.m */; };
+		07C2699624A6DF8D000C1148 /* UIView+ViewFrameGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C2698624A6DF8C000C1148 /* UIView+ViewFrameGeometry.m */; };
+		07C2699724A6DF8D000C1148 /* UILabel+TopOrBottomAlignment.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C2698724A6DF8D000C1148 /* UILabel+TopOrBottomAlignment.m */; };
+		07C2699824A6DF8D000C1148 /* NSBundle+DAUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C2698C24A6DF8D000C1148 /* NSBundle+DAUtils.m */; };
+		07C2699924A6DF8D000C1148 /* UIColor+RGBValues.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C2698E24A6DF8D000C1148 /* UIColor+RGBValues.m */; };
+		07C2699A24A6DF8D000C1148 /* UIView+LSCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C2699124A6DF8D000C1148 /* UIView+LSCore.m */; };
+		07C2699B24A6DF8D000C1148 /* NSString+UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C2699224A6DF8D000C1148 /* NSString+UserInfo.m */; };
+		07C2699C24A6DF8D000C1148 /* NSString+Urlcode.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C2699324A6DF8D000C1148 /* NSString+Urlcode.m */; };
+		07C269A924A6DFC2000C1148 /* DAConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C2699D24A6DFC1000C1148 /* DAConfig.m */; };
+		07C269AA24A6DFC2000C1148 /* AppDefaultUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C2699E24A6DFC1000C1148 /* AppDefaultUtil.m */; };
+		07C269AB24A6DFC2000C1148 /* KRNumUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C269A024A6DFC1000C1148 /* KRNumUtil.m */; };
+		07C269AC24A6DFC2000C1148 /* KRUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C269A324A6DFC1000C1148 /* KRUtils.m */; };
+		07C269AD24A6DFC2000C1148 /* FontTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C269A724A6DFC2000C1148 /* FontTools.m */; };
+		07C269AE24A6DFC2000C1148 /* ColorTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C269A824A6DFC2000C1148 /* ColorTools.m */; };
+		07C269B124A6DFEF000C1148 /* KRSwiftUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C269B024A6DFEF000C1148 /* KRSwiftUtils.swift */; };
+		2D960196717329A1ABEB9C18 /* libPods-KRCommonComponents.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 191B094BAC5E6A04BBAF489A /* libPods-KRCommonComponents.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07C2696324A6DEF2000C1148 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07C2693F24A6DEEF000C1148 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07C2694624A6DEEF000C1148;
+			remoteInfo = KRCommonComponents;
+		};
+		07C2696E24A6DEF2000C1148 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07C2693F24A6DEEF000C1148 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07C2694624A6DEEF000C1148;
+			remoteInfo = KRCommonComponents;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07C2694724A6DEEF000C1148 /* KRCommonComponents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KRCommonComponents.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07C2694A24A6DEEF000C1148 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		07C2694B24A6DEEF000C1148 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		07C2694D24A6DEEF000C1148 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		07C2694E24A6DEEF000C1148 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		07C2695024A6DEEF000C1148 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		07C2695124A6DEEF000C1148 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		07C2695424A6DEEF000C1148 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07C2695624A6DEF2000C1148 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07C2695924A6DEF2000C1148 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07C2695B24A6DEF2000C1148 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07C2695C24A6DEF2000C1148 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07C2696224A6DEF2000C1148 /* KRCommonComponentsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KRCommonComponentsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07C2696624A6DEF2000C1148 /* KRCommonComponentsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRCommonComponentsTests.m; sourceTree = "<group>"; };
+		07C2696824A6DEF2000C1148 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07C2696D24A6DEF2000C1148 /* KRCommonComponentsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KRCommonComponentsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07C2697124A6DEF2000C1148 /* KRCommonComponentsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRCommonComponentsUITests.m; sourceTree = "<group>"; };
+		07C2697324A6DEF2000C1148 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07C2698224A6DF8C000C1148 /* UIView+TSXibOwner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TSXibOwner.h"; sourceTree = "<group>"; };
+		07C2698324A6DF8C000C1148 /* NSString+Date.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Date.m"; sourceTree = "<group>"; };
+		07C2698424A6DF8C000C1148 /* UILabel+TopOrBottomAlignment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+TopOrBottomAlignment.h"; sourceTree = "<group>"; };
+		07C2698524A6DF8C000C1148 /* UIView+TSXibOwner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TSXibOwner.m"; sourceTree = "<group>"; };
+		07C2698624A6DF8C000C1148 /* UIView+ViewFrameGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewFrameGeometry.m"; sourceTree = "<group>"; };
+		07C2698724A6DF8D000C1148 /* UILabel+TopOrBottomAlignment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+TopOrBottomAlignment.m"; sourceTree = "<group>"; };
+		07C2698824A6DF8D000C1148 /* UIColor+RGBValues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RGBValues.h"; sourceTree = "<group>"; };
+		07C2698924A6DF8D000C1148 /* UIView+LSCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LSCore.h"; sourceTree = "<group>"; };
+		07C2698A24A6DF8D000C1148 /* NSBundle+DAUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+DAUtils.h"; sourceTree = "<group>"; };
+		07C2698B24A6DF8D000C1148 /* UIView+ViewFrameGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewFrameGeometry.h"; sourceTree = "<group>"; };
+		07C2698C24A6DF8D000C1148 /* NSBundle+DAUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+DAUtils.m"; sourceTree = "<group>"; };
+		07C2698D24A6DF8D000C1148 /* NSString+Urlcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Urlcode.h"; sourceTree = "<group>"; };
+		07C2698E24A6DF8D000C1148 /* UIColor+RGBValues.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RGBValues.m"; sourceTree = "<group>"; };
+		07C2698F24A6DF8D000C1148 /* NSString+Date.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Date.h"; sourceTree = "<group>"; };
+		07C2699024A6DF8D000C1148 /* NSString+UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+UserInfo.h"; sourceTree = "<group>"; };
+		07C2699124A6DF8D000C1148 /* UIView+LSCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LSCore.m"; sourceTree = "<group>"; };
+		07C2699224A6DF8D000C1148 /* NSString+UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+UserInfo.m"; sourceTree = "<group>"; };
+		07C2699324A6DF8D000C1148 /* NSString+Urlcode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Urlcode.m"; sourceTree = "<group>"; };
+		07C2699D24A6DFC1000C1148 /* DAConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAConfig.m; sourceTree = "<group>"; };
+		07C2699E24A6DFC1000C1148 /* AppDefaultUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDefaultUtil.m; sourceTree = "<group>"; };
+		07C2699F24A6DFC1000C1148 /* KRUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KRUtils.h; sourceTree = "<group>"; };
+		07C269A024A6DFC1000C1148 /* KRNumUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KRNumUtil.m; sourceTree = "<group>"; };
+		07C269A124A6DFC1000C1148 /* KRNumUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KRNumUtil.h; sourceTree = "<group>"; };
+		07C269A224A6DFC1000C1148 /* FontTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontTools.h; sourceTree = "<group>"; };
+		07C269A324A6DFC1000C1148 /* KRUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KRUtils.m; sourceTree = "<group>"; };
+		07C269A424A6DFC1000C1148 /* DAConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAConfig.h; sourceTree = "<group>"; };
+		07C269A524A6DFC2000C1148 /* ColorTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorTools.h; sourceTree = "<group>"; };
+		07C269A624A6DFC2000C1148 /* AppDefaultUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDefaultUtil.h; sourceTree = "<group>"; };
+		07C269A724A6DFC2000C1148 /* FontTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontTools.m; sourceTree = "<group>"; };
+		07C269A824A6DFC2000C1148 /* ColorTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorTools.m; sourceTree = "<group>"; };
+		07C269AF24A6DFEE000C1148 /* KRCommonComponents-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KRCommonComponents-Bridging-Header.h"; sourceTree = "<group>"; };
+		07C269B024A6DFEF000C1148 /* KRSwiftUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KRSwiftUtils.swift; sourceTree = "<group>"; };
+		12C4B3F7125BF73077DB923E /* Pods-KRCommonComponents.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KRCommonComponents.debug.xcconfig"; path = "Target Support Files/Pods-KRCommonComponents/Pods-KRCommonComponents.debug.xcconfig"; sourceTree = "<group>"; };
+		191B094BAC5E6A04BBAF489A /* libPods-KRCommonComponents.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KRCommonComponents.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD3B20BC82DCA3F5FB49EE77 /* Pods-KRCommonComponents.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KRCommonComponents.release.xcconfig"; path = "Target Support Files/Pods-KRCommonComponents/Pods-KRCommonComponents.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07C2694424A6DEEF000C1148 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D960196717329A1ABEB9C18 /* libPods-KRCommonComponents.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07C2695F24A6DEF2000C1148 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07C2696A24A6DEF2000C1148 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07C2693E24A6DEEF000C1148 = {
+			isa = PBXGroup;
+			children = (
+				07C2694924A6DEEF000C1148 /* KRCommonComponents */,
+				07C2696524A6DEF2000C1148 /* KRCommonComponentsTests */,
+				07C2697024A6DEF2000C1148 /* KRCommonComponentsUITests */,
+				07C2694824A6DEEF000C1148 /* Products */,
+				1190B6D74F30EB3D9F074DF6 /* Pods */,
+				A898E3E53C4A9517B8080CBD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		07C2694824A6DEEF000C1148 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07C2694724A6DEEF000C1148 /* KRCommonComponents.app */,
+				07C2696224A6DEF2000C1148 /* KRCommonComponentsTests.xctest */,
+				07C2696D24A6DEF2000C1148 /* KRCommonComponentsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07C2694924A6DEEF000C1148 /* KRCommonComponents */ = {
+			isa = PBXGroup;
+			children = (
+				07C2697F24A6DF38000C1148 /* Source */,
+				07C2694A24A6DEEF000C1148 /* AppDelegate.h */,
+				07C2694B24A6DEEF000C1148 /* AppDelegate.m */,
+				07C2694D24A6DEEF000C1148 /* SceneDelegate.h */,
+				07C2694E24A6DEEF000C1148 /* SceneDelegate.m */,
+				07C2695024A6DEEF000C1148 /* ViewController.h */,
+				07C2695124A6DEEF000C1148 /* ViewController.m */,
+				07C2695324A6DEEF000C1148 /* Main.storyboard */,
+				07C2695624A6DEF2000C1148 /* Assets.xcassets */,
+				07C2695824A6DEF2000C1148 /* LaunchScreen.storyboard */,
+				07C2695B24A6DEF2000C1148 /* Info.plist */,
+				07C2695C24A6DEF2000C1148 /* main.m */,
+			);
+			path = KRCommonComponents;
+			sourceTree = "<group>";
+		};
+		07C2696524A6DEF2000C1148 /* KRCommonComponentsTests */ = {
+			isa = PBXGroup;
+			children = (
+				07C2696624A6DEF2000C1148 /* KRCommonComponentsTests.m */,
+				07C2696824A6DEF2000C1148 /* Info.plist */,
+			);
+			path = KRCommonComponentsTests;
+			sourceTree = "<group>";
+		};
+		07C2697024A6DEF2000C1148 /* KRCommonComponentsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				07C2697124A6DEF2000C1148 /* KRCommonComponentsUITests.m */,
+				07C2697324A6DEF2000C1148 /* Info.plist */,
+			);
+			path = KRCommonComponentsUITests;
+			sourceTree = "<group>";
+		};
+		07C2697F24A6DF38000C1148 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				07C2698124A6DF65000C1148 /* Utilites */,
+				07C2698024A6DF46000C1148 /* Categories */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		07C2698024A6DF46000C1148 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				07C2698A24A6DF8D000C1148 /* NSBundle+DAUtils.h */,
+				07C2698C24A6DF8D000C1148 /* NSBundle+DAUtils.m */,
+				07C2698F24A6DF8D000C1148 /* NSString+Date.h */,
+				07C2698324A6DF8C000C1148 /* NSString+Date.m */,
+				07C2698D24A6DF8D000C1148 /* NSString+Urlcode.h */,
+				07C2699324A6DF8D000C1148 /* NSString+Urlcode.m */,
+				07C2699024A6DF8D000C1148 /* NSString+UserInfo.h */,
+				07C2699224A6DF8D000C1148 /* NSString+UserInfo.m */,
+				07C2698824A6DF8D000C1148 /* UIColor+RGBValues.h */,
+				07C2698E24A6DF8D000C1148 /* UIColor+RGBValues.m */,
+				07C2698424A6DF8C000C1148 /* UILabel+TopOrBottomAlignment.h */,
+				07C2698724A6DF8D000C1148 /* UILabel+TopOrBottomAlignment.m */,
+				07C2698924A6DF8D000C1148 /* UIView+LSCore.h */,
+				07C2699124A6DF8D000C1148 /* UIView+LSCore.m */,
+				07C2698224A6DF8C000C1148 /* UIView+TSXibOwner.h */,
+				07C2698524A6DF8C000C1148 /* UIView+TSXibOwner.m */,
+				07C2698B24A6DF8D000C1148 /* UIView+ViewFrameGeometry.h */,
+				07C2698624A6DF8C000C1148 /* UIView+ViewFrameGeometry.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		07C2698124A6DF65000C1148 /* Utilites */ = {
+			isa = PBXGroup;
+			children = (
+				07C269B024A6DFEF000C1148 /* KRSwiftUtils.swift */,
+				07C269A624A6DFC2000C1148 /* AppDefaultUtil.h */,
+				07C2699E24A6DFC1000C1148 /* AppDefaultUtil.m */,
+				07C269A524A6DFC2000C1148 /* ColorTools.h */,
+				07C269A824A6DFC2000C1148 /* ColorTools.m */,
+				07C269A424A6DFC1000C1148 /* DAConfig.h */,
+				07C2699D24A6DFC1000C1148 /* DAConfig.m */,
+				07C269A224A6DFC1000C1148 /* FontTools.h */,
+				07C269A724A6DFC2000C1148 /* FontTools.m */,
+				07C269A124A6DFC1000C1148 /* KRNumUtil.h */,
+				07C269A024A6DFC1000C1148 /* KRNumUtil.m */,
+				07C2699F24A6DFC1000C1148 /* KRUtils.h */,
+				07C269A324A6DFC1000C1148 /* KRUtils.m */,
+				07C269AF24A6DFEE000C1148 /* KRCommonComponents-Bridging-Header.h */,
+			);
+			path = Utilites;
+			sourceTree = "<group>";
+		};
+		1190B6D74F30EB3D9F074DF6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				12C4B3F7125BF73077DB923E /* Pods-KRCommonComponents.debug.xcconfig */,
+				BD3B20BC82DCA3F5FB49EE77 /* Pods-KRCommonComponents.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A898E3E53C4A9517B8080CBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				191B094BAC5E6A04BBAF489A /* libPods-KRCommonComponents.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07C2694624A6DEEF000C1148 /* KRCommonComponents */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07C2697624A6DEF2000C1148 /* Build configuration list for PBXNativeTarget "KRCommonComponents" */;
+			buildPhases = (
+				44778E2295E95B3FA4CAB731 /* [CP] Check Pods Manifest.lock */,
+				07C2694324A6DEEF000C1148 /* Sources */,
+				07C2694424A6DEEF000C1148 /* Frameworks */,
+				07C2694524A6DEEF000C1148 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KRCommonComponents;
+			productName = KRCommonComponents;
+			productReference = 07C2694724A6DEEF000C1148 /* KRCommonComponents.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07C2696124A6DEF2000C1148 /* KRCommonComponentsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07C2697924A6DEF2000C1148 /* Build configuration list for PBXNativeTarget "KRCommonComponentsTests" */;
+			buildPhases = (
+				07C2695E24A6DEF2000C1148 /* Sources */,
+				07C2695F24A6DEF2000C1148 /* Frameworks */,
+				07C2696024A6DEF2000C1148 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07C2696424A6DEF2000C1148 /* PBXTargetDependency */,
+			);
+			name = KRCommonComponentsTests;
+			productName = KRCommonComponentsTests;
+			productReference = 07C2696224A6DEF2000C1148 /* KRCommonComponentsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		07C2696C24A6DEF2000C1148 /* KRCommonComponentsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07C2697C24A6DEF2000C1148 /* Build configuration list for PBXNativeTarget "KRCommonComponentsUITests" */;
+			buildPhases = (
+				07C2696924A6DEF2000C1148 /* Sources */,
+				07C2696A24A6DEF2000C1148 /* Frameworks */,
+				07C2696B24A6DEF2000C1148 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07C2696F24A6DEF2000C1148 /* PBXTargetDependency */,
+			);
+			name = KRCommonComponentsUITests;
+			productName = KRCommonComponentsUITests;
+			productReference = 07C2696D24A6DEF2000C1148 /* KRCommonComponentsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07C2693F24A6DEEF000C1148 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "戴培琼";
+				TargetAttributes = {
+					07C2694624A6DEEF000C1148 = {
+						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1150;
+					};
+					07C2696124A6DEF2000C1148 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 07C2694624A6DEEF000C1148;
+					};
+					07C2696C24A6DEF2000C1148 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 07C2694624A6DEEF000C1148;
+					};
+				};
+			};
+			buildConfigurationList = 07C2694224A6DEEF000C1148 /* Build configuration list for PBXProject "KRCommonComponents" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07C2693E24A6DEEF000C1148;
+			productRefGroup = 07C2694824A6DEEF000C1148 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07C2694624A6DEEF000C1148 /* KRCommonComponents */,
+				07C2696124A6DEF2000C1148 /* KRCommonComponentsTests */,
+				07C2696C24A6DEF2000C1148 /* KRCommonComponentsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07C2694524A6DEEF000C1148 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07C2695A24A6DEF2000C1148 /* LaunchScreen.storyboard in Resources */,
+				07C2695724A6DEF2000C1148 /* Assets.xcassets in Resources */,
+				07C2695524A6DEEF000C1148 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07C2696024A6DEF2000C1148 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07C2696B24A6DEF2000C1148 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		44778E2295E95B3FA4CAB731 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KRCommonComponents-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07C2694324A6DEEF000C1148 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07C2699424A6DF8D000C1148 /* NSString+Date.m in Sources */,
+				07C269AB24A6DFC2000C1148 /* KRNumUtil.m in Sources */,
+				07C2695224A6DEEF000C1148 /* ViewController.m in Sources */,
+				07C2699C24A6DF8D000C1148 /* NSString+Urlcode.m in Sources */,
+				07C269B124A6DFEF000C1148 /* KRSwiftUtils.swift in Sources */,
+				07C2699724A6DF8D000C1148 /* UILabel+TopOrBottomAlignment.m in Sources */,
+				07C2699624A6DF8D000C1148 /* UIView+ViewFrameGeometry.m in Sources */,
+				07C2694C24A6DEEF000C1148 /* AppDelegate.m in Sources */,
+				07C2699924A6DF8D000C1148 /* UIColor+RGBValues.m in Sources */,
+				07C2695D24A6DEF2000C1148 /* main.m in Sources */,
+				07C269A924A6DFC2000C1148 /* DAConfig.m in Sources */,
+				07C2699824A6DF8D000C1148 /* NSBundle+DAUtils.m in Sources */,
+				07C2699B24A6DF8D000C1148 /* NSString+UserInfo.m in Sources */,
+				07C2694F24A6DEEF000C1148 /* SceneDelegate.m in Sources */,
+				07C2699524A6DF8D000C1148 /* UIView+TSXibOwner.m in Sources */,
+				07C269AE24A6DFC2000C1148 /* ColorTools.m in Sources */,
+				07C269AD24A6DFC2000C1148 /* FontTools.m in Sources */,
+				07C269AA24A6DFC2000C1148 /* AppDefaultUtil.m in Sources */,
+				07C269AC24A6DFC2000C1148 /* KRUtils.m in Sources */,
+				07C2699A24A6DF8D000C1148 /* UIView+LSCore.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07C2695E24A6DEF2000C1148 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07C2696724A6DEF2000C1148 /* KRCommonComponentsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07C2696924A6DEF2000C1148 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07C2697224A6DEF2000C1148 /* KRCommonComponentsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07C2696424A6DEF2000C1148 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07C2694624A6DEEF000C1148 /* KRCommonComponents */;
+			targetProxy = 07C2696324A6DEF2000C1148 /* PBXContainerItemProxy */;
+		};
+		07C2696F24A6DEF2000C1148 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07C2694624A6DEEF000C1148 /* KRCommonComponents */;
+			targetProxy = 07C2696E24A6DEF2000C1148 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07C2695324A6DEEF000C1148 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07C2695424A6DEEF000C1148 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07C2695824A6DEF2000C1148 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07C2695924A6DEF2000C1148 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07C2697424A6DEF2000C1148 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		07C2697524A6DEF2000C1148 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07C2697724A6DEF2000C1148 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12C4B3F7125BF73077DB923E /* Pods-KRCommonComponents.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KRCommonComponents/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lai.yun.KRCommonComponents;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KRCommonComponents/Source/Utilites/KRCommonComponents-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07C2697824A6DEF2000C1148 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD3B20BC82DCA3F5FB49EE77 /* Pods-KRCommonComponents.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KRCommonComponents/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lai.yun.KRCommonComponents;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KRCommonComponents/Source/Utilites/KRCommonComponents-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		07C2697A24A6DEF2000C1148 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KRCommonComponentsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lai.yun.KRCommonComponentsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KRCommonComponents.app/KRCommonComponents";
+			};
+			name = Debug;
+		};
+		07C2697B24A6DEF2000C1148 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KRCommonComponentsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lai.yun.KRCommonComponentsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KRCommonComponents.app/KRCommonComponents";
+			};
+			name = Release;
+		};
+		07C2697D24A6DEF2000C1148 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KRCommonComponentsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lai.yun.KRCommonComponentsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KRCommonComponents;
+			};
+			name = Debug;
+		};
+		07C2697E24A6DEF2000C1148 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KRCommonComponentsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lai.yun.KRCommonComponentsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KRCommonComponents;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07C2694224A6DEEF000C1148 /* Build configuration list for PBXProject "KRCommonComponents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07C2697424A6DEF2000C1148 /* Debug */,
+				07C2697524A6DEF2000C1148 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07C2697624A6DEF2000C1148 /* Build configuration list for PBXNativeTarget "KRCommonComponents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07C2697724A6DEF2000C1148 /* Debug */,
+				07C2697824A6DEF2000C1148 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07C2697924A6DEF2000C1148 /* Build configuration list for PBXNativeTarget "KRCommonComponentsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07C2697A24A6DEF2000C1148 /* Debug */,
+				07C2697B24A6DEF2000C1148 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07C2697C24A6DEF2000C1148 /* Build configuration list for PBXNativeTarget "KRCommonComponentsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07C2697D24A6DEF2000C1148 /* Debug */,
+				07C2697E24A6DEF2000C1148 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07C2693F24A6DEEF000C1148 /* Project object */;
+}
