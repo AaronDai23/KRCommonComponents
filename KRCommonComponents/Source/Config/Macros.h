@@ -6,8 +6,6 @@
 //
 //
 
-#import "AppDelegate.h"
-
 #pragma mark - 各类key
 #ifdef DEBUG
 #define UM_KEY  @"5e5234e9570df33b8f00016a"
@@ -116,8 +114,6 @@
 
 
 #pragma mark - 代码简化宏
-// 应用程序托管
-#define AppDelegateInstance                            ((AppDelegate*)([UIApplication sharedApplication].delegate))
 
 #define KRLANGGECE(content)                                 NSLocalizedString(content, nil)
 
