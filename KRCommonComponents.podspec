@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "KRCommonComponents"
-  spec.version      = "1.0.1"
+  spec.version      = "1.0.3"
   spec.summary      = "基础通用组件"
 
   # This description is used to generate tags and improve search results.
@@ -101,6 +101,10 @@ Pod::Spec.new do |spec|
   
   spec.subspec 'Utilites' do |subspe|
   subspe.source_files = "KRCommonComponents/Source/Utilites/**/*"
+  end
+  
+  spec.subspec 'Config' do |subspe1|
+  subspe1.source_files = "KRCommonComponents/Source/Config/**/*"
   end
   # spec.public_header_files = "Classes/**/*.h"
 
