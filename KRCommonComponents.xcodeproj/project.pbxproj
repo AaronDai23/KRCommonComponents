@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		077A3EEC24A8E8C90056AB6D /* ConstantS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077A3EEA24A8E8C90056AB6D /* ConstantS.swift */; };
 		07C2694C24A6DEEF000C1148 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C2694B24A6DEEF000C1148 /* AppDelegate.m */; };
 		07C2694F24A6DEEF000C1148 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C2694E24A6DEEF000C1148 /* SceneDelegate.m */; };
 		07C2695224A6DEEF000C1148 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C2695124A6DEEF000C1148 /* ViewController.m */; };
@@ -53,6 +54,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		077A3EE924A8E8C80056AB6D /* KRNotificationConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KRNotificationConstant.h; sourceTree = "<group>"; };
+		077A3EEA24A8E8C90056AB6D /* ConstantS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstantS.swift; sourceTree = "<group>"; };
+		077A3EEB24A8E8C90056AB6D /* Macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
 		07C2694724A6DEEF000C1148 /* KRCommonComponents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KRCommonComponents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07C2694A24A6DEEF000C1148 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		07C2694B24A6DEEF000C1148 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -134,6 +138,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		077A3EE824A8E8510056AB6D /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				077A3EEA24A8E8C90056AB6D /* ConstantS.swift */,
+				077A3EE924A8E8C80056AB6D /* KRNotificationConstant.h */,
+				077A3EEB24A8E8C90056AB6D /* Macros.h */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
 		07C2693E24A6DEEF000C1148 = {
 			isa = PBXGroup;
 			children = (
@@ -196,6 +210,7 @@
 		07C2697F24A6DF38000C1148 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				077A3EE824A8E8510056AB6D /* Config */,
 				07C2698124A6DF65000C1148 /* Utilites */,
 				07C2698024A6DF46000C1148 /* Categories */,
 			);
@@ -254,7 +269,6 @@
 				12C4B3F7125BF73077DB923E /* Pods-KRCommonComponents.debug.xcconfig */,
 				BD3B20BC82DCA3F5FB49EE77 /* Pods-KRCommonComponents.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -423,6 +437,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				077A3EEC24A8E8C90056AB6D /* ConstantS.swift in Sources */,
 				07C2699424A6DF8D000C1148 /* NSString+Date.m in Sources */,
 				07C269AB24A6DFC2000C1148 /* KRNumUtil.m in Sources */,
 				07C2695224A6DEEF000C1148 /* ViewController.m in Sources */,
@@ -623,8 +638,9 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "KRCommonComponents/Source/Utilites/KRCommonComponents-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				dd = "";
 			};
 			name = Debug;
 		};
@@ -643,8 +659,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.lai.yun.KRCommonComponents;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "KRCommonComponents/Source/Utilites/KRCommonComponents-Bridging-Header.h";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				dd = "";
 			};
 			name = Release;
 		};
