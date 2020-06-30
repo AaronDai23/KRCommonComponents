@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		071A5D6024ABA30500644010 /* UIView+KRPostion.m in Sources */ = {isa = PBXBuildFile; fileRef = 071A5D5F24ABA30500644010 /* UIView+KRPostion.m */; };
 		077A3EEC24A8E8C90056AB6D /* ConstantS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077A3EEA24A8E8C90056AB6D /* ConstantS.swift */; };
 		07C2694C24A6DEEF000C1148 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C2694B24A6DEEF000C1148 /* AppDelegate.m */; };
 		07C2694F24A6DEEF000C1148 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C2694E24A6DEEF000C1148 /* SceneDelegate.m */; };
@@ -54,6 +55,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		071A5D5E24ABA30500644010 /* UIView+KRPostion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+KRPostion.h"; sourceTree = "<group>"; };
+		071A5D5F24ABA30500644010 /* UIView+KRPostion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+KRPostion.m"; sourceTree = "<group>"; };
 		077A3EE924A8E8C80056AB6D /* KRNotificationConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KRNotificationConstant.h; sourceTree = "<group>"; };
 		077A3EEA24A8E8C90056AB6D /* ConstantS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstantS.swift; sourceTree = "<group>"; };
 		077A3EEB24A8E8C90056AB6D /* Macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
@@ -238,6 +241,8 @@
 				07C2698524A6DF8C000C1148 /* UIView+TSXibOwner.m */,
 				07C2698B24A6DF8D000C1148 /* UIView+ViewFrameGeometry.h */,
 				07C2698624A6DF8C000C1148 /* UIView+ViewFrameGeometry.m */,
+				071A5D5E24ABA30500644010 /* UIView+KRPostion.h */,
+				071A5D5F24ABA30500644010 /* UIView+KRPostion.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -445,6 +450,7 @@
 				07C269B124A6DFEF000C1148 /* KRSwiftUtils.swift in Sources */,
 				07C2699724A6DF8D000C1148 /* UILabel+TopOrBottomAlignment.m in Sources */,
 				07C2699624A6DF8D000C1148 /* UIView+ViewFrameGeometry.m in Sources */,
+				071A5D6024ABA30500644010 /* UIView+KRPostion.m in Sources */,
 				07C2694C24A6DEEF000C1148 /* AppDelegate.m in Sources */,
 				07C2699924A6DF8D000C1148 /* UIColor+RGBValues.m in Sources */,
 				07C2695D24A6DEF2000C1148 /* main.m in Sources */,
