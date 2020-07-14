@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		071A5D6024ABA30500644010 /* UIView+KRPostion.m in Sources */ = {isa = PBXBuildFile; fileRef = 071A5D5F24ABA30500644010 /* UIView+KRPostion.m */; };
+		071A606724BE1B0C00644010 /* NSArray+BNDeepCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 071A606124BE1B0C00644010 /* NSArray+BNDeepCopy.m */; };
+		071A606824BE1B0C00644010 /* NSSet+BNDeepCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 071A606324BE1B0C00644010 /* NSSet+BNDeepCopy.m */; };
+		071A606924BE1B0C00644010 /* NSDictionary+BNDeepCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 071A606624BE1B0C00644010 /* NSDictionary+BNDeepCopy.m */; };
+		071A606D24BE1B7C00644010 /* LSNewsDetailWebviewContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 071A606B24BE1B7C00644010 /* LSNewsDetailWebviewContainer.m */; };
 		07C2694C24A6DEEF000C1148 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C2694B24A6DEEF000C1148 /* AppDelegate.m */; };
 		07C2694F24A6DEEF000C1148 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C2694E24A6DEEF000C1148 /* SceneDelegate.m */; };
 		07C2695224A6DEEF000C1148 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C2695124A6DEEF000C1148 /* ViewController.m */; };
@@ -55,6 +59,16 @@
 /* Begin PBXFileReference section */
 		071A5D5E24ABA30500644010 /* UIView+KRPostion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+KRPostion.h"; sourceTree = "<group>"; };
 		071A5D5F24ABA30500644010 /* UIView+KRPostion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+KRPostion.m"; sourceTree = "<group>"; };
+		071A605F24BE1B0C00644010 /* BNDeepCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNDeepCopy.h; sourceTree = "<group>"; };
+		071A606024BE1B0C00644010 /* NSSet+BNDeepCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSet+BNDeepCopy.h"; sourceTree = "<group>"; };
+		071A606124BE1B0C00644010 /* NSArray+BNDeepCopy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+BNDeepCopy.m"; sourceTree = "<group>"; };
+		071A606224BE1B0C00644010 /* NSArray+BNDeepCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+BNDeepCopy.h"; sourceTree = "<group>"; };
+		071A606324BE1B0C00644010 /* NSSet+BNDeepCopy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+BNDeepCopy.m"; sourceTree = "<group>"; };
+		071A606424BE1B0C00644010 /* NSDictionary+BNDeepCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+BNDeepCopy.h"; sourceTree = "<group>"; };
+		071A606524BE1B0C00644010 /* BNDeepCopyProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNDeepCopyProtocol.h; sourceTree = "<group>"; };
+		071A606624BE1B0C00644010 /* NSDictionary+BNDeepCopy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+BNDeepCopy.m"; sourceTree = "<group>"; };
+		071A606B24BE1B7C00644010 /* LSNewsDetailWebviewContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSNewsDetailWebviewContainer.m; sourceTree = "<group>"; };
+		071A606C24BE1B7C00644010 /* LSNewsDetailWebviewContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSNewsDetailWebviewContainer.h; sourceTree = "<group>"; };
 		077A3EE924A8E8C80056AB6D /* KRNotificationConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KRNotificationConstant.h; sourceTree = "<group>"; };
 		077A3EEB24A8E8C90056AB6D /* Macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
 		07C2694724A6DEEF000C1148 /* KRCommonComponents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KRCommonComponents.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -136,6 +150,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		071A605D24BE19C900644010 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				071A606A24BE1B3C00644010 /* LSNewsDetailWebviewContainer */,
+				071A605E24BE1A3900644010 /* BNDeepCopy */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		071A605E24BE1A3900644010 /* BNDeepCopy */ = {
+			isa = PBXGroup;
+			children = (
+				071A605F24BE1B0C00644010 /* BNDeepCopy.h */,
+				071A606524BE1B0C00644010 /* BNDeepCopyProtocol.h */,
+				071A606224BE1B0C00644010 /* NSArray+BNDeepCopy.h */,
+				071A606124BE1B0C00644010 /* NSArray+BNDeepCopy.m */,
+				071A606424BE1B0C00644010 /* NSDictionary+BNDeepCopy.h */,
+				071A606624BE1B0C00644010 /* NSDictionary+BNDeepCopy.m */,
+				071A606024BE1B0C00644010 /* NSSet+BNDeepCopy.h */,
+				071A606324BE1B0C00644010 /* NSSet+BNDeepCopy.m */,
+			);
+			path = BNDeepCopy;
+			sourceTree = "<group>";
+		};
+		071A606A24BE1B3C00644010 /* LSNewsDetailWebviewContainer */ = {
+			isa = PBXGroup;
+			children = (
+				071A606C24BE1B7C00644010 /* LSNewsDetailWebviewContainer.h */,
+				071A606B24BE1B7C00644010 /* LSNewsDetailWebviewContainer.m */,
+			);
+			path = LSNewsDetailWebviewContainer;
+			sourceTree = "<group>";
+		};
 		077A3EE824A8E8510056AB6D /* Config */ = {
 			isa = PBXGroup;
 			children = (
@@ -207,6 +254,7 @@
 		07C2697F24A6DF38000C1148 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				071A605D24BE19C900644010 /* Vendors */,
 				077A3EE824A8E8510056AB6D /* Config */,
 				07C2698124A6DF65000C1148 /* Utilites */,
 				07C2698024A6DF46000C1148 /* Categories */,
@@ -434,6 +482,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				071A606824BE1B0C00644010 /* NSSet+BNDeepCopy.m in Sources */,
 				07C2699424A6DF8D000C1148 /* NSString+Date.m in Sources */,
 				07C269AB24A6DFC2000C1148 /* KRNumUtil.m in Sources */,
 				07C2695224A6DEEF000C1148 /* ViewController.m in Sources */,
@@ -448,11 +497,14 @@
 				07C2699824A6DF8D000C1148 /* NSBundle+DAUtils.m in Sources */,
 				07C2699B24A6DF8D000C1148 /* NSString+UserInfo.m in Sources */,
 				07C2694F24A6DEEF000C1148 /* SceneDelegate.m in Sources */,
+				071A606924BE1B0C00644010 /* NSDictionary+BNDeepCopy.m in Sources */,
 				07C2699524A6DF8D000C1148 /* UIView+TSXibOwner.m in Sources */,
 				07C269AE24A6DFC2000C1148 /* ColorTools.m in Sources */,
 				07C269AD24A6DFC2000C1148 /* FontTools.m in Sources */,
 				07C269AA24A6DFC2000C1148 /* AppDefaultUtil.m in Sources */,
+				071A606D24BE1B7C00644010 /* LSNewsDetailWebviewContainer.m in Sources */,
 				07C269AC24A6DFC2000C1148 /* KRUtils.m in Sources */,
+				071A606724BE1B0C00644010 /* NSArray+BNDeepCopy.m in Sources */,
 				07C2699A24A6DF8D000C1148 /* UIView+LSCore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
